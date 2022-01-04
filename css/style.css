@@ -68,6 +68,18 @@
         border-radius: 10px;
     }
     
+    #full-dev {
+        border-left: 10px solid;
+        border-image: linear-gradient(80deg, #e66465, #9198e5);
+        border-image-slice: 1;
+    }
+    
+    #system-ana {
+        border-left: 10px solid;
+        border-image: linear-gradient(180deg, rgb(62, 62, 230), rgb(4, 4, 134), rgb(109, 128, 0), cyan);
+        border-image-slice: 1;
+    }
+    
     .third-section-experiences {
         background-image: url(../images/exp-bg.png);
         background-repeat: no-repeat;
