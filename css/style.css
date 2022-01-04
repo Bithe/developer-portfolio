@@ -13,7 +13,7 @@
     }
     
     h2 {
-        font-size: 3gi0px;
+        font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
     }
     
@@ -31,19 +31,27 @@
     
     .box-width {
         width: 50%;
-        padding: 3%;
+        padding: 2%;
     }
     
     .box-width img {
-        width: 90%;
+        width: 80%;
     }
     
-    .hire-me-button {
-        font-size: x-large;
+    .button-design {
+        font-size: larger;
         color: seashell;
         text-decoration: none;
         background-image: linear-gradient( 60deg, lightsalmon, tomato);
         padding: 10px 40px;
         border-radius: 7px;
         font-weight: 700;
+    }
+    
+    .dream-big-banner {
+        display: flex;
+        text-align: justify;
+        background-image: url(../images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
     }
