@@ -20,6 +20,15 @@
     .box-width p {
         font-family: 'Architects Daughter', cursive;
         font-size: larger;
+        animation-duration: 3s;
+        animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+        from {
+            margin-right: 100%;
+            width: 100%;
+        }
     }
     
     .header-top-banner {
